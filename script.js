@@ -1,4 +1,7 @@
 // Define the calculateTip function here
+function calculateTip(billAmount, tipPrecentage) {
+  return billAmount * tipPrecentage / 100;
+}
 
 
 // Call the calculateTip function with different values
